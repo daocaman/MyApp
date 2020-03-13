@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import java.lang.String?>
+<BorderPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <BorderPane prefHeight="66.0" prefWidth="800.0">
+            <center>
+                <Label text="TASL APP">
+                    <font>
+                        <Font name="Times New Roman" size="22.0"/>
+                    </font>
+                    <styleClass>
+                        <String fx:value="h3"/>
+                        <String fx:value="text-primary"/>
+                    </styleClass>
+                </Label>
+            </center>
+        </BorderPane>
+    </top>
+    <center>
+        <TabPane prefHeight="200.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+            <tabs>
+                <Tab text="Moving File">
+                    <content>
+                        <fx:include source="MovingFile.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="Book Manager">
+                    <content>
+                        <BorderPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+                    </content>
+                </Tab>
+                <Tab text="Number file">
+                    <content>
+                        <BorderPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </center>
+</BorderPane>

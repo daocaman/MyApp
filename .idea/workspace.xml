@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MyApp:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="07f8277d-1841-4c45-a7b0-fc7c7f6a1b00" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YsuJ5Ol9IHAC0MZnVkTst8xUOq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AnDao\Desktop\Working\MyApp\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainApplication" />
+      <module name="MyApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07f8277d-1841-4c45-a7b0-fc7c7f6a1b00" name="Default Changelist" comment="" />
+      <created>1583743547308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583743547308</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Auto_Import" timestamp="1583763764501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Auto_Import/0.0.1366.728@0.0.1366.728" timestamp="1583763764501" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583744445208">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583744445208" />
+    <state x="413" y="146" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583764897793">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="146" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1583764897793" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1583764904505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583764904505" />
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1583766145906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583766145906" />
+    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1583766145906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583766145906" />
+    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1583766145906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583766145906" />
+    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1583766145906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583766145906" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1583764913662">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583764913662" />
+    <state x="482" y="140" key="chooseDestDirectoryDialog" timestamp="1583751945019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="140" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1583751945019" />
+    <state x="363" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1583810758532">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583810758532" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MovingFileController.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
