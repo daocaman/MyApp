@@ -61,8 +61,7 @@ public class MovingFileController {
         return FilenameUtils.getExtension(filename);
     }
 
-    private static void fileCopyUsingApacheCommons(String srcFile, String dstFile)
-    {
+    private static void fileCopyUsingApacheCommons(String srcFile, String dstFile) {
         File fileToCopy = new File(srcFile);
         File newFile = new File(dstFile);
 
@@ -73,28 +72,31 @@ public class MovingFileController {
         }
     }
 
-    public void move(ActionEvent actionEvent)  {
-        int count = 0;
-        if (tarF != null && srcF != null) {
-            for(File f : srcF.listFiles()){
-                if(f.isDirectory()){
-                    for(File tmp : f.listFiles()){
-                        if(getExtensionByApacheCommonLib(tmp.getName()).equalsIgnoreCase((String)cb_mv_f.getValue())){
-                            count+=1;
-                            Thread thread = new Thread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    fileCopyUsingApacheCommons(tmp.getAbsolutePath(), tarF.getAbsolutePath()+"/"+tmp.getName());
-                                }
-                            });
-                            thread.start();
-                            lv_mv_file.getItems().add(tmp.getName());
-                            lb_mv_p.setText("Files: "+String.valueOf(count));
+    public void moveFiles(File src) {
+        for (File f : src.listFiles()) {
+            if (f.isDirectory()) {
+                moveFiles(f);
+            } else {
+                if (getExtensionByApacheCommonLib(f.getName()).equalsIgnoreCase((String) cb_mv_f.getValue())) {
+                    Thread thread = new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            fileCopyUsingApacheCommons(f.getAbsolutePath(), tarF.getAbsolutePath() + "/" + f.getName());
                         }
-                    }
+                    });
+                    thread.start();
+                    lv_mv_file.getItems().add(f.getName());
                 }
             }
         }
 
+    }
+
+    public void move(ActionEvent actionEvent) {
+        int count = 0;
+        if (tarF != null && srcF != null) {
+            moveFiles(srcF);
+            lb_mv_p.setText("Files: " + lv_mv_file.getItems().size());
+        }
     }
 }
