@@ -6,6 +6,6 @@
 
 <BorderPane prefHeight="400" prefWidth="800" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RemoveOther">
    <center>
-      <Button mnemonicParsing="false" text="Do it" BorderPane.alignment="CENTER" />
+      <Button fx:id="btn_remove" mnemonicParsing="false" text="Do it" BorderPane.alignment="CENTER" onAction="#doIt"/>
    </center>
 </BorderPane>

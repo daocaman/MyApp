@@ -64,7 +64,6 @@ public class MovingFileController {
     private static void fileCopyUsingApacheCommons(String srcFile, String dstFile) {
         File fileToCopy = new File(srcFile);
         File newFile = new File(dstFile);
-
         try {
             FileUtils.copyFile(fileToCopy, newFile);
         } catch (IOException e) {
