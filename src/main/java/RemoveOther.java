@@ -25,28 +25,38 @@ public class RemoveOther {
         return FilenameUtils.getExtension(filename);
     }
 
-    public void doIt(ActionEvent actionEvent) {
-        fileChooser.setTitle("title");
-        tmp = fileChooser.showDialog(btn_remove.getScene().getWindow());
-        if (tmp != null) {
-            for (File t1 : tmp.listFiles()) {
+    public void removeFileDir(File f) {
+        for (File t1 : f.listFiles()) {
+            if (!t1.isDirectory()) {
                 String ext = getExtensionByApacheCommonLib(t1.getName()).toLowerCase();
                 if (!data.contains(ext)) {
+                    System.out.println(t1.getName());
                     t1.delete();
-                }else{
+                } else {
                     BufferedImage bimg = null;
                     try {
                         bimg = ImageIO.read(t1);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                    int width          = bimg.getWidth();
-                    int height         = bimg.getHeight();
-                    if(width<100 && height<100){
+                    int width = bimg.getWidth();
+                    int height = bimg.getHeight();
+                    if (width < 100 && height < 100) {
                         t1.delete();
                     }
                 }
+            } else {
+                removeFileDir(t1);
             }
+
+        }
+    }
+
+    public void doIt(ActionEvent actionEvent) {
+        fileChooser.setTitle("title");
+        tmp = fileChooser.showDialog(btn_remove.getScene().getWindow());
+        if (tmp != null) {
+            removeFileDir(tmp);
         }
     }
 }
