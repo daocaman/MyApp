@@ -31,7 +31,13 @@ public class RemoveOther {
                 String ext = getExtensionByApacheCommonLib(t1.getName()).toLowerCase();
                 if (!data.contains(ext)) {
                     System.out.println(t1.getName());
-                    t1.delete();
+                    Thread thread = new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            t1.delete();
+                        }
+                    });
+                    thread.start();
                 } else {
                     BufferedImage bimg = null;
                     try {
@@ -41,8 +47,14 @@ public class RemoveOther {
                     }
                     int width = bimg.getWidth();
                     int height = bimg.getHeight();
-                    if (width < 100 && height < 100) {
-                        t1.delete();
+                    if (width < 100 || height < 100) {
+                        Thread thread = new Thread(new Runnable() {
+                            @Override
+                            public void run() {
+                                t1.delete();
+                            }
+                        });
+                        thread.start();
                     }
                 }
             } else {
