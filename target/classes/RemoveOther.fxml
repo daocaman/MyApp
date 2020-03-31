@@ -1,11 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane prefHeight="400" prefWidth="800" xmlns="http://javafx.com/javafx/8.0.241" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RemoveOther">
+    <center>
+        <GridPane maxHeight="180.0" maxWidth="600.0" prefHeight="180.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="674.0" minWidth="10.0" prefWidth="582.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <HBox alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="576.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <children>
+                        <TextField prefHeight="29.0" prefWidth="422.0" />
+                        <Button mnemonicParsing="false" prefHeight="29.0" prefWidth="111.0" text="Chọn thư mục">
+                            <HBox.margin>
+                                <Insets left="48.0" />
+                            </HBox.margin>
+                            <styleClass>
+                                <String fx:value="btn" />
+                                <String fx:value="btn-sm" />
+                                <String fx:value="btn-default" />
+                            </styleClass>
+                        </Button>
+                    </children>
+                    <GridPane.margin>
+                        <Insets left="10.0" />
+                    </GridPane.margin>
+                </HBox>
+                <GridPane prefHeight="55.0" prefWidth="597.0" GridPane.rowIndex="1">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="141.0" minWidth="10.0" prefWidth="96.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.0" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="371.0" minWidth="10.0" prefWidth="210.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Label text="Folder:">
+                            <GridPane.margin>
+                                <Insets left="10.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Label text="Files:" GridPane.columnIndex="1" />
+                        <Button mnemonicParsing="false" text="Xóa Files" GridPane.columnIndex="2" GridPane.halignment="RIGHT">
+                            <GridPane.margin>
+                                <Insets right="10.0" />
+                            </GridPane.margin>
+                            <styleClass>
+                                <String fx:value="btn" />
+                                <String fx:value="btn-sm" />
+                                <String fx:value="btn-danger" />
+                            </styleClass>
+                        </Button>
+                    </children>
+                </GridPane>
+                <Label text="Error" visible="false" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets left="10.0" />
+                    </GridPane.margin>
+                </Label>
+                <Label text="Error" visible="false" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets left="10.0" />
+                    </GridPane.margin>
+                </Label>
+            </children>
+        </GridPane>
+    </center>
+    <top>
+        <BorderPane prefHeight="34.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+    </top>
 
 
-<BorderPane prefHeight="400" prefWidth="800" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RemoveOther">
-   <center>
-      <Button fx:id="btn_remove" mnemonicParsing="false" text="Do it" BorderPane.alignment="CENTER" onAction="#doIt"/>
-   </center>
 </BorderPane>
