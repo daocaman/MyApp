@@ -9,13 +9,7 @@
     <list default="true" id="aa04b415-12e3-4b65-b279-508eaa65b666" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/MyApp_jar/MyApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyApp_jar/MyApp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RemoveOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveOther.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/RemoveOther.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/RemoveOther.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveOther$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveOther$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveOther$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveOther.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveOther.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveOther.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,8 +116,19 @@
       <workItem from="1585629646104" duration="5966000" />
       <workItem from="1585640757657" duration="1307000" />
       <workItem from="1585648526131" duration="3656000" />
-      <workItem from="1585656603510" duration="4103000" />
+      <workItem from="1585656603510" duration="5860000" />
+      <workItem from="1585670527381" duration="30000" />
+      <workItem from="1585673874208" duration="14000" />
+      <workItem from="1585906963182" duration="79000" />
     </task>
+    <task id="LOCAL-00001" summary="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image">
+      <created>1585667166761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585667166761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +146,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image" />
+    <option name="LAST_COMMIT_MESSAGE" value="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyApp$MainApplication.ic" NAME="MainApplication Coverage Results" MODIFIED="1585635338035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -116,7 +116,7 @@ public class RemoveOther {
     }
 
     public void openFolder(ActionEvent actionEvent) {
-        fileChooser.setTitle("title");
+        fileChooser.setTitle("Chọn thư mục");
         tmp = fileChooser.showDialog(btn_RO_delete.getScene().getWindow());
         if (tmp != null)
             tv_RO_folder.setText(tmp.getName());
