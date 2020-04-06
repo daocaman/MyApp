@@ -25,6 +25,9 @@ public class MovingFileController {
     private TextField tv_mv_source, tv_mv_target;
 
     @FXML
+    private Label lb_mv_f;
+
+    @FXML
     private Label lb_mv_p;
 
     @FXML
@@ -46,13 +49,13 @@ public class MovingFileController {
     }
 
     public void openDirS(ActionEvent actionEvent) {
-        srcF = openFileChooser("Chọn thư mục nguồn");
+        srcF = openFileChooser("Choose source folder");
         if (srcF != null)
             tv_mv_source.setText(srcF.getName());
     }
 
     public void openDirT(ActionEvent actionEvent) {
-        tarF = openFileChooser("Chọn thư mục đích");
+        tarF = openFileChooser("Choose destination foler");
         if (tarF != null)
             tv_mv_target.setText(tarF.getName());
     }
@@ -85,6 +88,8 @@ public class MovingFileController {
                     });
                     thread.start();
                     lv_mv_file.getItems().add(f.getName());
+                } else if (((String) cb_mv_f.getValue()).isEmpty()) {
+                    Notify.update(lb_mv_p, "Extension file not found/ not selected", Notify.DANGER);
                 }
             }
         }
@@ -92,10 +97,12 @@ public class MovingFileController {
     }
 
     public void move(ActionEvent actionEvent) {
-        int count = 0;
         if (tarF != null && srcF != null) {
             moveFiles(srcF);
-            lb_mv_p.setText("Files: " + lv_mv_file.getItems().size());
+            lb_mv_f.setText(String.valueOf(lv_mv_file.getItems().size()));
+            Notify.update(lb_mv_p, "Completed", Notify.SUCCESS);
+        } else {
+            Notify.update(lb_mv_p, "Error null file", Notify.DANGER);
         }
     }
 }

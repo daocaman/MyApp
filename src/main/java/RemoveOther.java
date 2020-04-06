@@ -37,7 +37,7 @@ public class RemoveOther {
 
     final DirectoryChooser fileChooser = new DirectoryChooser();
 
-    final ArrayList<String> data = new ArrayList<String>(Arrays.asList("png", "jpg"));
+    final ArrayList<String> data = new ArrayList<String>(Arrays.asList("png", "jpg", "jpeg"));
 
     private File tmp;
 
@@ -104,19 +104,16 @@ public class RemoveOther {
             }
             lb_RO_file.setText(String.valueOf(count));
             lb_RO_fol.setText(String.valueOf(count1));
-            lb_RO_infor.setText("Hoàn thành");
-            lb_RO_infor.getStyleClass().removeAll();
-            lb_RO_infor.getStyleClass().addAll("h5", "text-success");
+            Notify.update(lb_RO_infor,"Completed",Notify.SUCCESS);
+
         } catch (Exception e) {
-            lb_RO_infor.setText("error, " + crrFolder.getName());
-            lb_RO_infor.getStyleClass().removeAll();
-            lb_RO_infor.getStyleClass().addAll("h5", "text-danger");
+            Notify.update(lb_RO_infor,"Error, " + crrFolder.getName(),Notify.DANGER);
         }
 
     }
 
     public void openFolder(ActionEvent actionEvent) {
-        fileChooser.setTitle("Chọn thư mục");
+        fileChooser.setTitle("Choose folder");
         tmp = fileChooser.showDialog(btn_RO_delete.getScene().getWindow());
         if (tmp != null)
             tv_RO_folder.setText(tmp.getName());

@@ -6,22 +6,10 @@
 <?import javafx.scene.text.*?>
 
 <?import java.lang.String?>
-<BorderPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+<BorderPane prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
             xmlns:fx="http://javafx.com/fxml/1">
     <top>
-        <BorderPane prefHeight="66.0" prefWidth="800.0">
-            <center>
-                <Label text="TASL APP">
-                    <font>
-                        <Font name="Times New Roman" size="22.0"/>
-                    </font>
-                    <styleClass>
-                        <String fx:value="h3"/>
-                        <String fx:value="text-primary"/>
-                    </styleClass>
-                </Label>
-            </center>
-        </BorderPane>
+        <fx:include source="Header.fxml"/>
     </top>
     <center>
         <TabPane prefHeight="200.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
@@ -38,7 +26,7 @@
                 </Tab>
                 <Tab text="Number file">
                     <content>
-                        <BorderPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+                        <fx:include source="NumberFile.fxml"/>
                     </content>
                 </Tab>
                 <Tab text="Remove other file">
@@ -46,14 +34,10 @@
                         <fx:include source="RemoveOther.fxml"/>
                     </content>
                 </Tab>
-           </tabs>
+            </tabs>
         </TabPane>
     </center>
     <bottom>
-        <BorderPane prefHeight="71.0" prefWidth="800.0" BorderPane.alignment="CENTER">
-            <center>
-                <Label text="\@An Đào _ 2020" BorderPane.alignment="CENTER"/>
-            </center>
-        </BorderPane>
+        <fx:include source="Footer.fxml"/>
     </bottom>
 </BorderPane>

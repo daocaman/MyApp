@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<BorderPane prefHeight="66.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <Label text="TASL APP">
+            <font>
+                <Font name="Times New Roman" size="22.0"/>
+            </font>
+            <styleClass>
+                <String fx:value="h3"/>
+                <String fx:value="text-primary"/>
+            </styleClass>
+        </Label>
+    </center>
+</BorderPane>
