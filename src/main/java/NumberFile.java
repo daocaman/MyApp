@@ -77,6 +77,7 @@ public class NumberFile {
     }
 
     public void rename(ActionEvent actionEvent) {
+        tvObservableList.remove(0,tvObservableList.size());
         if (srcFolder != null) {
             File[] lstFiles = srcFolder.listFiles();
             Arrays.sort(lstFiles, new Comparator<File>() {
@@ -94,6 +95,7 @@ public class NumberFile {
                     e.printStackTrace();
                 }
             }
+            Notify.update(lb_nf_information, "Completed", Notify.SUCCESS);
         } else {
             Notify.update(lb_nf_information, "Error null folder", Notify.DANGER);
         }

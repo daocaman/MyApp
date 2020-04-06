@@ -6,26 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa04b415-12e3-4b65-b279-508eaa65b666" name="Default Changelist" comment="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChangingRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Notify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NumberFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Header.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/NumberFile.fxml" afterDir="false" />
+    <list default="true" id="aa04b415-12e3-4b65-b279-508eaa65b666" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MovingFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MovingFileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveOther.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MovingFile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MovingFile.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/RemoveOther.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/RemoveOther.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tmp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Footer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MovingFile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MovingFile.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MovingFileController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MovingFileController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MovingFileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MovingFileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveOther.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveOther.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveOther.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tmp.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyApp_jar/MyApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyApp_jar/MyApp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NumberFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberFile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +133,7 @@
       <workItem from="1586007679101" duration="6465000" />
       <workItem from="1586108590448" duration="669000" />
       <workItem from="1586164187045" duration="1204000" />
-      <workItem from="1586178309732" duration="11077000" />
+      <workItem from="1586178309732" duration="11863000" />
     </task>
     <task id="LOCAL-00001" summary="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image">
       <created>1585667166761</created>
@@ -158,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585667166761</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MyApp_v2&#10;Update Number File">
+      <created>1586189746230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586189746230</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image" />
-    <option name="LAST_COMMIT_MESSAGE" value="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image" />
+    <MESSAGE value="MyApp_v2&#10;Update Number File" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyApp_v2&#10;Update Number File" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyApp$MainApplication.ic" NAME="MainApplication Coverage Results" MODIFIED="1585635338035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
