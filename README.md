@@ -11,4 +11,4 @@ Allow people remove files except image file (.png, jpg, jpeg)
 ##### Images
 >
 
-<img src="image/RemoveOtherFile.JPG" width="40%" height="30%"/>
+<img src="image/RemoveOtherFile.JPG" width="40%" height="30%"/>     <img src="image/RemoveOtherFile.JPG" width="40%" height="30%"/>
