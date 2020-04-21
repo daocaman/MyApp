@@ -9,5 +9,7 @@ Allow people remove files except image file (.png, jpg, jpeg)
 
 
 ---
+> Ảnh giao diện
+>
 
-<img src="image/RemoveOtherFile.JPG" width="60%" height="50%"/>
+<img src="image/RemoveOtherFile.JPG" width="40%" height="30%"/>
