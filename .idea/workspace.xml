@@ -154,7 +154,7 @@
       <workItem from="1587374910778" duration="6000" />
       <workItem from="1587374965829" duration="1517000" />
       <workItem from="1587397184261" duration="1202000" />
-      <workItem from="1587430830873" duration="3576000" />
+      <workItem from="1587430830873" duration="3906000" />
     </task>
     <task id="LOCAL-00001" summary="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image">
       <created>1585667166761</created>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587436962315</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1587437436304</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587437436304</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

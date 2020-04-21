@@ -2,4 +2,4 @@
 ### Remove File
 Allow people remove files except image file (.png, jpg, jpeg)
 
-![RemoveOtherFile](image/RemoveOtherFile.JPG ) <!-- .element width="30%"-->
+![RemoveOtherFile](image/RemoveOtherFile.JPG ) <!-- .element width="30%" height="30%"-->
