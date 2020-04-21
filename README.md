@@ -2,5 +2,5 @@
 ### Remove File
 Allow people remove files except image file (.png, jpg, jpeg)
 
-![RemoveOtherFile|small](image/RemoveOtherFile.JPG )
 
+<img src="image/RemoveOtherFile.JPG" width="60%" height="50%"/>
