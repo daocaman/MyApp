@@ -1,3 +1,5 @@
+import org.apache.commons.io.FilenameUtils;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -6,6 +8,11 @@ public class Book {
 
     private String name;
     private String type;
+
+    public Book(String filename) {
+        this.name = FilenameUtils.getName(filename);
+        this.type = FilenameUtils.getExtension(filename);
+    }
 
     public Book(String name, String type) {
         this.name = name;

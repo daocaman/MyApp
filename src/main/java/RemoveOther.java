@@ -35,7 +35,7 @@ public class RemoveOther {
 
     private File chooseFolder;
 
-    final DirectoryChooser fileChooser = new DirectoryChooser();
+    final DirectoryChooser dirChooser = new DirectoryChooser();
 
     final ArrayList<String> data = new ArrayList<String>(Arrays.asList("png", "jpg", "jpeg"));
 
@@ -59,7 +59,7 @@ public class RemoveOther {
                     System.out.println(t1.getName());
                     count += 1;
                     deleteFile(t1);
-                } else {
+                } else if(data.contains(ext)){
 
                     BufferedImage bimg = null;
                     try {
@@ -113,8 +113,8 @@ public class RemoveOther {
     }
 
     public void openFolder(ActionEvent actionEvent) {
-        fileChooser.setTitle("Choose folder");
-        tmp = fileChooser.showDialog(btn_RO_delete.getScene().getWindow());
+        dirChooser.setTitle("Choose folder");
+        tmp = dirChooser.showDialog(btn_RO_delete.getScene().getWindow());
         if (tmp != null)
             tv_RO_folder.setText(tmp.getName());
     }

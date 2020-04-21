@@ -21,7 +21,7 @@
                 </Tab>
                 <Tab text="Book Manager">
                     <content>
-                        <BorderPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0"/>
+                        <fx:include source="BookManger.fxml"/>
                     </content>
                 </Tab>
                 <Tab text="Number file">

@@ -33,7 +33,7 @@
                 <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="BASELINE">
                     <children>
                         <TextField fx:id="tv_mv_source" prefHeight="29.0" prefWidth="271.0" />
-                        <Button fx:id="btn_mv_source" mnemonicParsing="false" onAction="#openDirS" text="Select">
+                        <Button fx:id="btn_mv_source" mnemonicParsing="false" onAction="#openDirS" text="Browse">
                             <HBox.margin>
                                 <Insets left="30.0" />
                             </HBox.margin>
@@ -49,9 +49,6 @@
                     </GridPane.margin>
                 </HBox>
                 <Label text="Source folder">
-                    <font>
-                        <Font name="Times New Roman" size="13.0" />
-                    </font>
                     <GridPane.margin>
                         <Insets left="20.0" />
                     </GridPane.margin>
@@ -72,7 +69,7 @@
                 <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="BASELINE">
                     <children>
                         <TextField fx:id="tv_mv_target" prefHeight="29.0" prefWidth="271.0" />
-                        <Button fx:id="btn_mv_target" mnemonicParsing="false" onAction="#openDirT" text="Select">
+                        <Button fx:id="btn_mv_target" mnemonicParsing="false" onAction="#openDirT" text="Browse">
                             <HBox.margin>
                                 <Insets left="30.0" />
                             </HBox.margin>

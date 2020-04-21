@@ -7,9 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa04b415-12e3-4b65-b279-508eaa65b666" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookManger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/BookManger.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/MyApp_jar/MyApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyApp_jar/MyApp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveOther.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MovingFile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MovingFile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/NumberFile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/NumberFile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MovingFile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MovingFile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveOther.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +60,10 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -62,11 +77,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -133,7 +153,21 @@
       <workItem from="1586007679101" duration="6465000" />
       <workItem from="1586108590448" duration="669000" />
       <workItem from="1586164187045" duration="1204000" />
-      <workItem from="1586178309732" duration="11863000" />
+      <workItem from="1586178309732" duration="12034000" />
+      <workItem from="1586241086408" duration="1686000" />
+      <workItem from="1586257356381" duration="88000" />
+      <workItem from="1586330509190" duration="1087000" />
+      <workItem from="1586341172771" duration="1050000" />
+      <workItem from="1586348028946" duration="6901000" />
+      <workItem from="1586424256123" duration="1765000" />
+      <workItem from="1586756675169" duration="3019000" />
+      <workItem from="1587088541101" duration="308000" />
+      <workItem from="1587373899366" duration="824000" />
+      <workItem from="1587374806177" duration="52000" />
+      <workItem from="1587374910778" duration="6000" />
+      <workItem from="1587374965829" duration="1517000" />
+      <workItem from="1587397184261" duration="1202000" />
+      <workItem from="1587430830873" duration="1446000" />
     </task>
     <task id="LOCAL-00001" summary="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image">
       <created>1585667166761</created>
@@ -149,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586189746230</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MyApp_v2.1&#10;Update state, fix bug">
+      <created>1586190548906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586190548906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +212,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image" />
     <MESSAGE value="MyApp_v2&#10;Update Number File" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyApp_v2&#10;Update Number File" />
+    <MESSAGE value="MyApp_v2.1&#10;Update state, fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyApp_v2.1&#10;Update state, fix bug" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyApp$MainApplication.ic" NAME="MainApplication Coverage Results" MODIFIED="1585635338035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
