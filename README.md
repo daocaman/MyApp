@@ -37,7 +37,5 @@ Default Screen
 
 <img src="image/RemoveOtherFile.JPG" width="40%" height="30%"/>     
 
-
-
-><img src="image/RemoveOtherFile_2.JPG" width="40%" height="30%"/>    
+<img src="image/RemoveOtherFile_2.JPG" width="40%" height="30%"/>    
 
