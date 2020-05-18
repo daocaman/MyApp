@@ -2,7 +2,21 @@
 ### Moving File 
 
 ---
-###
+### Book Manager
+
+---
+### Number File
+
+Numbering the file with the prefix 
+
+#### Step
+>1. Open choose the folder contains files to rename
+>2. Fill the prefix (not necessary)
+>3. Click Rename and wait the update information
+
+
+
+---
 
 ### Remove Other File
 
@@ -23,9 +37,7 @@ Default Screen
 
 <img src="image/RemoveOtherFile.JPG" width="40%" height="30%"/>     
 
->*Image 2*
 
-Finish Screen
 
 ><img src="image/RemoveOtherFile_2.JPG" width="40%" height="30%"/>    
 
