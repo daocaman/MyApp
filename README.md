@@ -12,7 +12,7 @@ Moving the specific extension file from folder to folder
 #### Images
 >*Default Screen*
 
-<img src="image/MovingFile.JPG.JPG" width="40%" height="30%"/>     
+<img src="image/MovingFile.JPG" width="40%" height="30%"/>     
 
 >*Finish Screen*
 
