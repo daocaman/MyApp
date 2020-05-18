@@ -31,9 +31,7 @@ Removes files in folder excep image extension (*.jpg, .png, ...*)
 
 ##### Images
 
->*Image 1*
-
-Default Screen
+>*Image 1: Default Screen*
 
 <img src="image/RemoveOtherFile.JPG" width="40%" height="30%"/>     
 
