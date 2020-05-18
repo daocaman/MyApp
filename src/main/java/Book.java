@@ -10,7 +10,7 @@ public class Book {
     private String type;
 
     public Book(String filename) {
-        this.name = FilenameUtils.getName(filename);
+        this.name = FilenameUtils.getBaseName(filename);
         this.type = FilenameUtils.getExtension(filename);
     }
 

@@ -98,6 +98,7 @@ public class MovingFileController {
 
     public void move(ActionEvent actionEvent) {
         if (tarF != null && srcF != null) {
+            lv_mv_file.getItems().clear();
             moveFiles(srcF);
             lb_mv_f.setText(String.valueOf(lv_mv_file.getItems().size()));
             Notify.update(lb_mv_p, "Completed", Notify.SUCCESS);

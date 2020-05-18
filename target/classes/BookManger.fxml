@@ -75,7 +75,7 @@
                      </GridPane.margin>
                   </Label>
                   <Label GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <Button fx:id="btn_bm_save" mnemonicParsing="false" text="Save" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                  <Button fx:id="btn_bm_save" mnemonicParsing="false" onAction="#Save" text="Save" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" >
                      <GridPane.margin>
                         <Insets right="10.0" />
                      </GridPane.margin>
