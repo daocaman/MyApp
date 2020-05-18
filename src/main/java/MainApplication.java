@@ -12,19 +12,12 @@ public class MainApplication extends Application {
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Main.fxml"));
         Parent root = loader.load();
-//        final MyController controller = loader.getController();
         Scene scene = new Scene(root);
         scene.getStylesheets().add("org/kordamp/bootstrapfx/bootstrapfx.css");
         primaryStage.getIcons().add(new Image("icon.png"));
         primaryStage.setTitle("TASL APP");
         primaryStage.setScene(scene);
-//        primaryStage.setOnHidden(new EventHandler<WindowEvent>() {
-//            @Override
-//            public void handle(WindowEvent event) {
-//                controller.shutdown();
-//                Platform.exit();
-//            }
-//        });
+
         primaryStage.show();
     }
 

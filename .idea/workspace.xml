@@ -9,14 +9,8 @@
     <list default="true" id="aa04b415-12e3-4b65-b279-508eaa65b666" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BookManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookManger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MovingFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MovingFileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/BookManger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BookManger.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BookManger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BookManger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BookManger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BookManger.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MovingFileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MovingFileController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,6 +160,7 @@
       <workItem from="1588733273722" duration="4848000" />
       <workItem from="1588747563265" duration="4091000" />
       <workItem from="1589016940561" duration="602000" />
+      <workItem from="1589791663503" duration="2243000" />
     </task>
     <task id="LOCAL-00001" summary="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image">
       <created>1585667166761</created>
