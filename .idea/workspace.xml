@@ -7,7 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa04b415-12e3-4b65-b279-508eaa65b666" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Compressed.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/BookManager.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BookRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/BookRow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Book.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/So Hoa Ebook.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/So Hoa Ebook.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BookManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookManger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Notify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/BookManger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BookManger.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Footer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Footer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BookManger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BookManger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BookManger.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BookManger.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Notify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Notify.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,6 +177,17 @@
       <workItem from="1588747563265" duration="4091000" />
       <workItem from="1589016940561" duration="602000" />
       <workItem from="1589791663503" duration="6400000" />
+      <workItem from="1589811545906" duration="808000" />
+      <workItem from="1590053601706" duration="614000" />
+      <workItem from="1590141665905" duration="604000" />
+      <workItem from="1590656035946" duration="6173000" />
+      <workItem from="1590682189512" duration="3584000" />
+      <workItem from="1590749135186" duration="2078000" />
+      <workItem from="1591061396268" duration="2886000" />
+      <workItem from="1591077071567" duration="150000" />
+      <workItem from="1591157651670" duration="601000" />
+      <workItem from="1591413499218" duration="958000" />
+      <workItem from="1591435215895" duration="9294000" />
     </task>
     <task id="LOCAL-00001" summary="31/03/2020_v2&#10;Update GUI Remove Other File&#10;Check Error from corruption file image">
       <created>1585667166761</created>

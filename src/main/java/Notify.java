@@ -1,6 +1,8 @@
 import javafx.scene.control.Label;
+import org.apache.log4j.Logger;
 
 public class Notify {
+
     public static final String ALERT_NULL = "File not found";
     public static final String ALERT_ERROR = "Error";
     public static final int INFO = 1;
@@ -8,10 +10,16 @@ public class Notify {
     public static final int SUCCESS = 3;
     public static final int WARNING = 4;
     public static final int PRIMARY = 5;
+    public static final Logger logger = Logger.getLogger(Notify.class);
 
     public static void update(Label lb, String msg, int style) {
         lb.setText(msg);
         updateColor(lb, style);
+    }
+
+    public static void clear(Label lb) {
+        lb.setText("");
+        updateColor(lb, SUCCESS);
     }
 
     private static void updateColor(Label lb, int style) {

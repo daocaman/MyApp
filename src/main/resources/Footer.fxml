@@ -8,6 +8,6 @@
 
 <BorderPane prefHeight="71.0" prefWidth="800.0" BorderPane.alignment="CENTER">
     <center>
-        <Label text="\@An Đào _ 2020 v2.0" BorderPane.alignment="CENTER"/>
+        <Label text="\@An Đào _ 2020 v2.1" BorderPane.alignment="CENTER"/>
     </center>
 </BorderPane>
