@@ -6,7 +6,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.poi.common.usermodel.HyperlinkType;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.usermodel.Font;
@@ -55,7 +56,7 @@ public class BookManger {
 
     private int countSheet, books;
 
-    private static final Logger log = Logger.getLogger(BookManger.class);
+    private static final Logger log = LogManager.getLogger(BookManger.class);
 
     private String[] colums = {"STT", "Tên", "Loại"};
 

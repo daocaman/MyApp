@@ -1,5 +1,6 @@
 import javafx.scene.control.Label;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Notify {
 
@@ -10,7 +11,8 @@ public class Notify {
     public static final int SUCCESS = 3;
     public static final int WARNING = 4;
     public static final int PRIMARY = 5;
-    public static final Logger logger = Logger.getLogger(Notify.class);
+
+    public static final Logger logger = LogManager.getLogger(Notify.class);
 
     public static void update(Label lb, String msg, int style) {
         lb.setText(msg);
